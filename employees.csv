@@ -1,0 +1,29 @@
+divisions: Table 1
+DivisionID,DivisionName,,,
+1,America,,,
+2,Europe,,,
+3,Pacific,,,
+
+
+departments: Table 1
+DivisionID,DepartmentID,DepartmentName,,
+1,100,Accounting,,
+1,200,Sales,,
+1,300,Research,,
+2,100,Sales,,
+2,200,Accounting,,
+2,300,Research,,
+3,100,Administration,,
+
+
+employee: Table 1
+EmployeeID,LastName,FirstName,Title,TitleOfCourtesy,Gender,BirthDate,HireDate,Address,City,Region,PostalCode,Country,HomePhone,Extension,ReportsTo,CurrentSalary,Commission,DivisionID,DepartmentID
+1,Davolio,Nancy,Sales Representative,Ms.,F,12/8/48,5/1/92,507 - 20th Ave. E. Apt. 2A,Seattle,WA,98122,USA,(206) 555-9857,5467,2,2000,NULL,1,100
+2,Fuller,Andrew,"Vice President, Sales",Dr.,M,2/19/52,8/14/92,908 W. Capital Way,Tacoma,WA,98401,USA,(206) 555-9482,3457,NULL,9000,NULL,1,100
+3,Leverling,Janet,Sales Representative,Ms.,F,8/30/63,4/1/92,722 Moss Bay Blvd.,Kirkland,WA,98033,USA,(206) 555-3412,3355,2,6000,NULL,1,200
+4,Peacock,Margaret,Sales Representative,Mrs.,F,9/19/37,5/3/93,4110 Old Redmond Rd.,Redmond,WA,98052,USA,(206) 555-8122,5176,2,3000,NULL,2,200
+5,Buchanan,Steven,Sales Manager,Mr.,M,3/4/55,10/17/93,14 Garrett Hill,London,NULL,SW1 8JR,UK,(71) 555-4848,3453,2,5000,NULL,1,200
+6,Suyama,Michael,Sales Representative,Mr.,M,7/2/63,10/17/93,Coventry House Miner Rd.,London,NULL,EC2 7JR,UK,(71) 555-7773,428,5,3600,200,2,300
+7,King,Robert,Sales Representative,Mr.,M,5/29/60,1/2/94,Edgeham Hollow Winchester Way,London,NULL,RG1 9SP,UK,(71) 555-5598,465,5,3000,400,2,300
+8,Callahan,Laura,Inside Sales Coordinator,Ms.,F,1/9/58,3/5/94,4726 - 11th Ave. N.E.,Seattle,WA,98105,USA,(206) 555-1189,2344,2,4000,NULL,2,300
+9,Dodsworth,Anne,Sales Representative,Ms.,F,1/27/66,11/15/94,7 Houndstooth Rd.,London,NULL,WG2 7LT,UK,(71) 555-4444,452,5,5200,300,2,300
